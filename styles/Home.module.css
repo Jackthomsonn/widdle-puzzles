@@ -1,0 +1,22 @@
+.container {
+  background-color: #fff;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  text-align: center;
+  color: #373f51;
+}

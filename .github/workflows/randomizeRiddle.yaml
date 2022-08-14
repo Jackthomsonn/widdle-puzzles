@@ -1,0 +1,12 @@
+name: Randomize The Riddle
+on:
+  schedule:
+    - cron: "00 00 * * *"
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch
+        run: |
+          curl --request POST \
+          --url 'https://widdle-puzzles.vercel.app/api/randomRiddleChooser' \
